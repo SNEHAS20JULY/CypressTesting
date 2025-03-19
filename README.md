@@ -1,3 +1,6 @@
+                                                               Basic Cypress testing commands
+
+
 1. Validate API Response
           cy.request('/api/users').its('status').should('eq', 200);
 2.  Login Automation
